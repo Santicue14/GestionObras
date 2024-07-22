@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Hormigón 2017",
+"color": "green",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Potosí", "description": "Hormigon 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7999187, -34.5326993 ], [ -58.7804351, -34.5291461 ], [ -58.7660156, -34.5248327 ], [ -58.762282, -34.5232593 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Butler", "description": "Hormigón 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.8081247, -34.5004357 ], [ -58.7644222, -34.5143041 ] ] } },
+{ "type": "Feature", "properties": { "Name": "HEM 24", "description": "Hormigón 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7984923, -34.5020065 ], [ -58.7969044, -34.5025547 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Vicente Lopez", "description": "Hormigón 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7358317, -34.5120805 ], [ -58.7343726, -34.5139193 ], [ -58.7316904, -34.5158995 ], [ -58.7313685, -34.5160763 ], [ -58.7258968, -34.5200897 ] ] } }
+]
+}

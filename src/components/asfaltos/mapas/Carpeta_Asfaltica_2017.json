@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"name": "Carpeta Asfáltica 2017",
+"color": "red",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "18 de Octubre", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7766545, -34.5226892 ], [ -58.7745087, -34.5215577 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Piñero", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7835853, -34.5259067 ], [ -58.7715261, -34.517898 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Capitán Martinez", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7539523, -34.5157764 ], [ -58.7512057, -34.5142735 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Acerboni", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7507122, -34.5129474 ], [ -58.7496393, -34.5123993 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Labarden", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7520855, -34.5047784 ], [ -58.7507766, -34.5064936 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Oliden", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7491672, -34.5045308 ], [ -58.7523215, -34.500446 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Pinazo", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7475121, -34.5083856 ], [ -58.7435638, -34.506246 ], [ -58.7398946, -34.504354 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Lafinur", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7430489, -34.5045308 ], [ -58.7407314, -34.5075015 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Montes de Oca", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7683814, -34.5095553 ], [ -58.7722008, -34.5116064 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Brughetti", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7745612, -34.5085828 ], [ -58.7722008, -34.5116064 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Chile", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7497417, -34.5424381 ], [ -58.7535397, -34.5459642 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Pinto", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7552778, -34.5447068 ], [ -58.7516514, -34.5473403 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Casacuberta", "description": "Asfato 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7569622, -34.5348926 ], [ -58.7533895, -34.5374733 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Newbery", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.767048, -34.5429669 ], [ -58.7717902, -34.5462013 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Joaquin V. Gonzalez", "description": "Asfalto 2017" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7236294, -34.5159694 ], [ -58.7276098, -34.5187982 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Joaquin V. Gonzalez", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7282106, -34.5184446 ], [ -58.7290153, -34.5192535 ], [ -58.7298843, -34.520027 ] ] } }
+]
+}

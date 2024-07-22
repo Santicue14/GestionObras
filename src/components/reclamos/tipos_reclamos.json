@@ -1,0 +1,18 @@
+[
+    {
+      "id": "1",
+      "tipo_reclamo": "Recoleccion de ramas"
+    },
+    {
+      "id": "2",
+      "tipo_reclamo": "Recoleccion de basura"
+    },
+    {
+      "id": "3",
+      "tipo_reclamo": "Iluminarias"
+    },
+    {
+      "id": "4",
+      "tipo_reclamo": "Plazas"
+    }
+  ]

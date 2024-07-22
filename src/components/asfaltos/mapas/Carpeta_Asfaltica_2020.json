@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"name": "Carpeta Asfáltica 2020",
+"color": "orange",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Tomas Guido", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7688625, -34.5505927 ], [ -58.7681329, -34.5499034 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Merlo", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7731111, -34.5461654 ], [ -58.7723708, -34.5456441 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Alvarado", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7758577, -34.5432804 ], [ -58.771652, -34.5404878 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Humbolt", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.810586, -34.494207 ], [ -58.8068952, -34.4916868 ], [ -58.8056507, -34.4908644 ], [ -58.8044276, -34.4900421 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Washington", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7839751, -34.4979572 ], [ -58.7862282, -34.4991509 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Varela", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7696044, -34.5029839 ], [ -58.7676517, -34.5019229 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Pasteur", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7826286, -34.515365 ], [ -58.7800429, -34.5136323 ], [ -58.7792597, -34.5131019 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Carmen Puch", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7839268, -34.5118996 ], [ -58.782929, -34.5129162 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Alsina", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7939904, -34.51506 ], [ -58.7900529, -34.5124167 ], [ -58.7891732, -34.5117891 ], [ -58.7871776, -34.5105956 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Fournier", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.8002131, -34.5183486 ], [ -58.7945698, -34.5145738 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Blanqui", "description": "Asfalto 2020" }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7883875, -34.5212238 ], [ -58.7939021, -34.5248657 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Tres Sargentos", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7385443, -34.5263712 ], [ -58.7380132, -34.5258563 ] ] } },
+{ "type": "Feature", "properties": { "Name": "delia ", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7317538, -34.5256274 ], [ -58.7298119, -34.5270196 ] ] } },
+{ "type": "Feature", "properties": { "Name": "cacique coliqueo", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.730797, -34.5263038 ], [ -58.7296178, -34.5252213 ] ] } },
+{ "type": "Feature", "properties": { "Name": "castelar", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7311751, -34.5251368 ], [ -58.7292278, -34.5265069 ] ] } },
+{ "type": "Feature", "properties": { "Name": "alvarez jonte", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7452604, -34.5041517 ], [ -58.7443859, -34.5052878 ] ] } },
+{ "type": "Feature", "properties": { "Name": "piñero", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7471915, -34.5052215 ], [ -58.7430556, -34.5030421 ] ] } },
+{ "type": "Feature", "properties": { "Name": "lafinur", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7438657, -34.5035091 ], [ -58.7430933, -34.5045391 ] ] } },
+{ "type": "Feature", "properties": { "Name": "luis pasteur", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7944213, -34.5243602 ], [ -58.7889388, -34.5206564 ] ] } },
+{ "type": "Feature", "properties": { "Name": "crucero la argentina", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7853715, -34.5261028 ], [ -58.7888583, -34.5225405 ] ] } },
+{ "type": "Feature", "properties": { "Name": "francisco miranda", "description": null }, "geometry": { "type": "LineString", "coordinates": [ [ -58.7675977, -34.5241033 ], [ -58.7668413, -34.5238337 ] ] } }
+]
+}

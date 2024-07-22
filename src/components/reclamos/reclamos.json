@@ -1,0 +1,22 @@
+[
+    {
+       "domicilio": "alem 3719",
+       "email": "santiagobcuevas14@gmail.com",
+       "entreCalles": 12312312,
+       "fullName": "Jaafar Danora",
+       "id": 1,
+       "observaciones": "Hola tengo ramas\n",
+       "telefono": 1161970490,
+       "tipoRecla": "Recoleccion de basura"
+    },
+    {
+       "domicilio": "alem 3719",
+       "email": "azuzujajaxd@gmail.com",
+       "entreCalles": 12312312,
+       "fullName": "Santiago Ariel Baldini Cuevas",
+       "id": 2,
+       "observaciones": "sdasdas",
+       "telefono": 111561970,
+       "tipoRecla": "Plazas"
+    }
+ ]
