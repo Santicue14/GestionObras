@@ -1,36 +1,45 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 //ICONS
 import { FaHouse, FaUser } from "react-icons/fa6";
+// eslint-disable-next-line no-unused-vars
 import { FaCompass, FaGasPump, FaSignOutAlt } from "react-icons/fa";
 import { MdArticle, MdContactSupport } from "react-icons/md";
 //NAVBAR STYLES
 import '../index.css'
+import AuthContext from './providers/AuthProvider';
+import ReclamosContext from './providers/ReclamosProvider';
+import axios from 'axios';
 // import './funcionesbarra.js' NOT USED (?)
 
-export const NavBar = ({ setIsLogged }) => {
-    const username = "Santiago Cuevas"
+export const NavBar = () => {
     const welcome = 'Obras y Servicios'
-
+    const {getData} = useContext(ReclamosContext)
+    const {auth, logout} = useContext(AuthContext)
     const [openedMapMenu, setMapMenu] = useState(false)
     const [openedReclaMenu, setReclaMenu] = useState(false)
-    const [openedConsuMenu, setConsuMenu] = useState(false)
 
-    const handleMapMenu = (e) => {
+    const [userData, setUserData] = useState({})
+
+
+    useEffect(() => {
+        axios.get('http://localhost:3000/api/usuarios/getinfo', {withCredentials: true})
+          .then(response => {
+            setUserData(response.data); // Asume que la respuesta contiene un array de tipos de reclamos
+          })
+          .catch(error => console.error(error));
+      }, []);
+    const handleMapMenu = () => {
         setMapMenu(!openedMapMenu)
     }
-    const handleReclaMenu = (e) => {
+    const handleReclaMenu = () => {
         setReclaMenu(!openedReclaMenu)
     }
-    const handleConsuMenu = (e) => {
-        setConsuMenu(!openedConsuMenu)
-    }
-    const logOut = (e) => {
-        e.preventDefault()
-        setIsLogged(false)
-    }
+    // const handleConsuMenu = (e) => {
+    //     setConsuMenu(!openedConsuMenu)
+    // }
 
-    return (
+    return ( auth &&
         <div className="sidebar hidden shadow-2xl">
             <div className="active">
             </div>
@@ -40,9 +49,9 @@ export const NavBar = ({ setIsLogged }) => {
                         <p className="title">{welcome}</p>
                         <img src="src/assets/pos_icon.png" alt="Logo municipalidad jose c paz" width="60px" className='mx-auto saturate-0 top-0' />
                     </div>
-                    <p className="name flex justify-between gap-1 items-center">
+                    <p className="name flex justify-between gap-1 items-center text-slate-500">
                         <FaUser className='top-0' />
-                        {username}
+                        {userData.nombre || ''}
                     </p>
 
                 </div>
@@ -127,7 +136,7 @@ export const NavBar = ({ setIsLogged }) => {
                         </a>
                     </li>
                     <li>
-                        <button className='button-logout flex text-sm text-center p-2 gap-2 text-slate-500' onClick={logOut}>
+                        <button className='button-logout flex text-sm text-center p-2 gap-2 text-slate-500' onClick={logout}>
                             <FaSignOutAlt />
                             <span className="text">Cerrar sesión</span>
                         </button>

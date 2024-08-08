@@ -10,7 +10,7 @@ function capitalizar(str) {
 }
 const GeoZones = () => {
     const createZone = (zoneData) => (
-        <LayersControl.Overlay key={zoneData.properties.Name} checked name={capitalizar(zoneData.properties.Name)}>
+        <LayersControl.Overlay key={zoneData.properties.Name} checked name={capitalizar(zoneData.properties.Name)}> 
             <GeoJSON
                 data={zoneData}
                 style={(feature) => ({
@@ -36,6 +36,9 @@ export const MapReco = () => {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <LayersControl>
+           <LayersControl.Overlay name='Ocultar capas'>
+
+           </LayersControl.Overlay>
                 <GeoZones />
             </LayersControl>
         </MapContainer>
